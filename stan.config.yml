@@ -1,5 +1,6 @@
 cliDefaults:
   run:
+    plan: false
     sequential: true
 excludes:
   - docs
@@ -8,7 +9,7 @@ includes: []
 patchOpenCommand: code -g {file}
 scripts:
   typecheck: npm run typecheck
-  lint: npm run lint
+  lint: npm run lint:fix
   test: npm run test
   diagrams: npm run diagrams
   docs: npm run stan:docs

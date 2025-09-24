@@ -2,6 +2,7 @@ When updated: 2025-08-31T00:45:00Z
 
 Next up
 
+- Install @vitest/eslint-plugin and remove eslint-plugin-vitest; then run: npm run lint to verify no rule/name drift.
 - Run: npm install to ensure new devDependencies (react, react-dom, @types/react, @types/react-dom, vite, @vitejs/plugin-react, @testing-library/\*, tsx) are installed before running test/docs/typecheck.
 - Optionally add story tooling (Storybook or Ladle) if docs scale up.
 - Consider pruning unused devDependencies flagged by knip.
@@ -12,10 +13,10 @@ Next up
 
 Completed (recent)
 
+- Lint: replace deprecated eslint-plugin-vitest with @vitest/eslint-plugin; updated eslint.config.ts and devDependencies.
 - README: documented GitHub Actions cloud sync backup via Rclone; added safety/secret/opt‑out notes and links.
 - README: added STAN to “What’s in the box” and a new “In The Box” section with emoji-rich, linked subsections; updated Contents.
-- Lint: sorted imports and ensured EOF newline in eslint.config.ts to satisfy simple-import-sort and Prettier.
-- Deduped ESLint config: shared Prettier/import-sort for JS/TS; kept TS-specific rules; expanded Vitest test globs to include JS.
+- Lint: sorted imports and ensured EOF newline in eslint.config.ts to satisfy simple-import-sort and Prettier.- Deduped ESLint config: shared Prettier/import-sort for JS/TS; kept TS-specific rules; expanded Vitest test globs to include JS.
 - Fixed ESLint parser error on Windows by setting parserOptions.tsconfigRootDir = path.resolve() in eslint.config.ts.
 - Clarified lint/format policy: include /playground; exclude generated outputs; rely on editor Prettier (no new Lefthook script).
 - Added tests for library entry re-exports and HelloWorld edge cases.

@@ -2,7 +2,17 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [0.1.1](https://github.com/karmaniverous/react-component-npm-package-template-ts/compare/0.1.0...0.1.1)
+
+- chore(eslint): migrate to @vitest/eslint-plugin [`fed217d`](https://github.com/karmaniverous/react-component-npm-package-template-ts/commit/fed217db6317486eda1e18a06decd90be8746527)
+- sync with npm template [`f5f17e0`](https://github.com/karmaniverous/react-component-npm-package-template-ts/commit/f5f17e048dc9c862326c29a7d6d0bad9017eb88a)
+- docs: update plan; note @vitest/eslint-plugin [`a99f2bc`](https://github.com/karmaniverous/react-component-npm-package-template-ts/commit/a99f2bcee824b70060bcc9fc1d91bb053cc7fed8)
+- knip nag [`f19606b`](https://github.com/karmaniverous/react-component-npm-package-template-ts/commit/f19606b521404b584e2a95518dd8c1b3154abceb)
+- updated stan [`7ca2236`](https://github.com/karmaniverous/react-component-npm-package-template-ts/commit/7ca2236aa33b1ac927c06fabbab68262fb0d9541)
+
 #### 0.1.0
+
+> 31 August 2025
 
 - Feature/component scaffold [`#1`](https://github.com/karmaniverous/react-component-npm-package-template-ts/pull/1)
 - Initial commit [`76856f2`](https://github.com/karmaniverous/react-component-npm-package-template-ts/commit/76856f2450e80952fb9ddc2480b09244449e890e)
@@ -20,6 +30,7 @@ All notable changes to this project will be documented in this file. Dates are d
 - docs: add “How to use this template” section [`6376dfc`](https://github.com/karmaniverous/react-component-npm-package-template-ts/commit/6376dfc1ecfa2c0b427152472418963617c2d84d)
 - updated docs [`171d430`](https://github.com/karmaniverous/react-component-npm-package-template-ts/commit/171d430765b432a90a616b533650a004d2c89ec6)
 - docs(readme): add STAN + “In The Box” section [`6142d7e`](https://github.com/karmaniverous/react-component-npm-package-template-ts/commit/6142d7e13e3a3d04facc51225154a92c1fc1b233)
+- chore: release v0.1.0 [`9893032`](https://github.com/karmaniverous/react-component-npm-package-template-ts/commit/9893032f9050ced1c3e0f03b99e8994061d18650)
 - tests: add entry tests; edge cases; tweak cov [`f6677cb`](https://github.com/karmaniverous/react-component-npm-package-template-ts/commit/f6677cb4777c90a102c156b4ed04dc5a8e148708)
 - updated docs [`3be1bcb`](https://github.com/karmaniverous/react-component-npm-package-template-ts/commit/3be1bcb99f93e601db204cbe01a5f910b1168e98)
 - chore: switch to TS ESLint flat config; fix lint/TS friction [`8a6424f`](https://github.com/karmaniverous/react-component-npm-package-template-ts/commit/8a6424f0c7bac6a77143762f2ca06a8c37ceb7de)

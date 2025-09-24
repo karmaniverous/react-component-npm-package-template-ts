@@ -25,11 +25,11 @@ Baseline decisions
   - Windows: set ESLint languageOptions.parserOptions.tsconfigRootDir to path.resolve() to avoid a known typescript-eslint path bug affecting tsconfigRootDir resolution on Windows.
   - Limit lint to non-generated code; exclude dist/, docs/, coverage/, .rollup.cache/, .stan/, context/, and diagrams/out/.
   - Line endings (cross-platform): enforce LF-only in the repo via .gitattributes, .editorconfig, and Prettier (endOfLine: "lf"). If CRLF noise appears locally, normalize once: • git add --renormalize . • npm run lint:fix Editors with Prettier on save should keep files normalized.
-  - Tests linted with Vitest recommended rules (non type-checked).
+  - Tests linted with Vitest recommended rules via @vitest/eslint-plugin (non type-checked).
+  - STAN lint script uses "npm run lint:fix" for patch cycles; keep "npm run lint" for non-fixing checks.
 - Testing
   - Vitest with happy-dom environment (project default).
-  - @testing-library/react and @testing-library/jest-dom for component tests.
-  - jest-dom is registered via vitest.setup.ts.
+  - @testing-library/react and @testing-library/jest-dom for component tests.  - jest-dom is registered via vitest.setup.ts.
 - Dev preview
   - Vite playground under /playground for interactive browser viewing.
   - Playground is excluded from npm package (files: ["dist"]) and from typecheck.
